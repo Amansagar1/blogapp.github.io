@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.single {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: screen;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin-bottom: 40px;
+  height: screen;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.userimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit {
+  display: flex;
+  font-size: 16px;
+  color: rgb(51, 57, 57);
+  gap: 10px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.edit ,p{
+  
+  font-size: 18px;
+}
+
+.articale {
+  margin: 10px;
+}
+
+.articale p {
+  margin-bottom: 20px;
+font-size: 20px;
+ 
+
+}
+
+.articale h1{
+  font-size: 20px;
+ 
+}
